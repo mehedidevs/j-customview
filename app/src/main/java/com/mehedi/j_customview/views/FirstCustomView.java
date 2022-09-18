@@ -46,8 +46,8 @@ public class FirstCustomView extends View {
 
     public void swapColor() {
 
-        paint.setColor(paint.getColor() == getResources().getColor(R.color.purple_200) ? getResources().getColor(R.color.teal_200) : getResources().getColor(R.color.purple_200));
-       invalidate();
+       // paint.setColor(paint.getColor() == getResources().getColor(R.color.purple_200) ? getResources().getColor(R.color.teal_200) : getResources().getColor(R.color.purple_200));
+       //invalidate();
 
 
     }
